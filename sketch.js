@@ -81,12 +81,6 @@ function setup() {
   button2.position(30,420);
   button2.size(50,50);
 
-  //button2.Clicked(drop);
-  
-  //button2.mousePress(drop);
-  
-  //button2.mouseClick(drop);
-
   button2.mouseClicked(drop);
   button.mouseClicked(remove_rope);
   ellipseMode(RADIUS);
@@ -165,4 +159,3 @@ function collide(body,sprite,x)
             }
          }
 }
-
