@@ -143,6 +143,13 @@ function drop()
   con2 = null; 
 }
 
+function drop()
+{
+  rope.break();
+  con.dettach();
+  con = null; 
+}
+
 function remove_rope()
 {
   rope.break();
